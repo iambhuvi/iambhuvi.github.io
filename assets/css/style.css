@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 350px;
 }
 
 #hero h1 {
@@ -577,7 +577,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 80%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -600,7 +600,9 @@ section {
   opacity: 1;
   bottom: 0;
 }
-
+.portfolio .portfolio-label {
+  text-align: center;
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
